@@ -105,6 +105,20 @@ h1 {
   backdrop-filter: blur(8px);
 }
 
+.status-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-bottom: 1.25rem;
+}
+
+.refresh-note {
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  opacity: 0.9;
+}
+
 .reviews {
   display: grid;
   gap: 1rem;

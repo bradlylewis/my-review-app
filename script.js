@@ -3,9 +3,28 @@ const FILTER_WORDS = ['mitchell', 'tyler'];
 
 const resultsContainer = document.getElementById('results');
 const statusNode = document.getElementById('status');
+const refreshNoteNode = document.getElementById('refresh-note');
 
 function setStatus(message) {
   statusNode.textContent = message;
+}
+
+function setRefreshNote(updatedAt) {
+  if (!updatedAt) {
+    refreshNoteNode.textContent = 'Last updated: loading… · refreshes hourly';
+    return;
+  }
+
+  const formatted = new Intl.DateTimeFormat('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    timeZoneName: 'short',
+  }).format(updatedAt);
+
+  refreshNoteNode.textContent = `Last updated: ${formatted} · refreshes hourly`;
 }
 
 function escapeHtml(value = '') {
@@ -127,17 +146,16 @@ async function init() {
     const updatedAt = payload?.updatedAt ? new Date(payload.updatedAt) : null;
 
     renderReviews(filteredReviews);
+    setRefreshNote(updatedAt);
 
     if (updatedAt) {
-      const timeText = updatedAt.toLocaleString();
-      if (filteredReviews.length > 0) {
-        setStatus(`${filteredReviews.length} matching review${filteredReviews.length === 1 ? '' : 's'} found. Updated ${timeText}.`);
-      } else {
-        setStatus(`No matching reviews found. Updated ${timeText}.`);
-      }
+      setRefreshNote(updatedAt);
+      setStatus(`${filteredReviews.length} matching review${filteredReviews.length === 1 ? '' : 's'} found.`);
     } else if (filteredReviews.length > 0) {
+      setRefreshNote(null);
       setStatus(`${filteredReviews.length} matching review${filteredReviews.length === 1 ? '' : 's'} found.`);
     } else {
+      setRefreshNote(null);
       setStatus('No matching reviews found right now.');
     }
   } catch (error) {
