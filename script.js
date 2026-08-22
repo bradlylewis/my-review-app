@@ -57,6 +57,12 @@ function matchesFilter(reviewText) {
   return FILTER_WORDS.some((word) => normalized.includes(word));
 }
 
+function highlightMatches(text = '') {
+  const escaped = escapeHtml(text);
+  const regex = /(mitchell|tyler)/gi;
+  return escaped.replace(regex, '<mark>$&</mark>');
+}
+
 async function loadReviews() {
   const url = `reviews.json?t=${Date.now()}`;
   const response = await fetch(url, { cache: 'no-store' });
@@ -96,7 +102,7 @@ function renderReviews(reviews) {
         </div>
         <span class="rating">${escapeHtml(rating)}</span>
       </div>
-      <p>${escapeHtml(text)}</p>
+      <p>${highlightMatches(text)}</p>
       <div class="review-footer">
         <span>Helpful: ${upVotes}</span>
         <span>Unhelpful: ${downVotes}</span>
