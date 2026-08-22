@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mitchell / Tyler Reviews</title>
+    <meta
+      name="description"
+      content="Minimal single-page IMDb review filter for Mitchell and Tyler mentions."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow">IMDb review filter</p>
+        <h1>Mitchell / Tyler reviews</h1>
+      </header>
+
+      <section class="filter-summary" aria-label="Movie summary">
+        <span class="tag">Movie ID: tt35519455</span>
+      </section>
+
+      <div id="status" class="status" aria-live="polite">Loading reviews…</div>
+
+      <section id="results" class="reviews" aria-live="polite"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
