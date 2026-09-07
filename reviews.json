@@ -1,8 +1,22 @@
 {
-  "updatedAt": "2026-09-07T15:33:38.174Z",
+  "updatedAt": "2026-09-07T19:39:15.013Z",
   "movieId": "tt35519455",
-  "total": 11,
+  "total": 12,
   "reviews": [
+    {
+      "id": "rw11848132",
+      "author": "JustBella7",
+      "authorRating": 1,
+      "submissionDate": "2026-09-07",
+      "spoiler": true,
+      "helpfulness": {
+        "upVotes": 0,
+        "downVotes": 0
+      },
+      "text": "What the actual Faaa ?! Okay lol, this movie kind of pissed me off. I get that they wanted to make it Artsy &amp; have the viewer interpret what the meaning is but that&#39;s just lazy in my opinion. This had so much potential. The characters James &amp; Tyler were the only interesting people to watch. The other 2 people were super annoying. I kept waiting for something interesting or spooky to happen. You don&#39;t even get a reason or conclusion to why any of it is happening, The whole movie is them driving and stopping, then complaining. I gave it one star because there was zero enjoyment. I wrote the review to save you from wasting your time.",
+      "summary": "What the actual Faaa ?!",
+      "rawText": "Okay lol, this movie kind of pissed me off. I get that they wanted to make it Artsy &amp; have the viewer interpret what the meaning is but that&#39;s just lazy in my opinion.<br/><br/>This had so much potential. The characters James &amp; Tyler were the only interesting people to watch. The other 2 people were super annoying. I kept waiting for something interesting or spooky to happen. You don&#39;t even get a reason or conclusion to why any of it is happening, The whole movie is them driving and stopping, then complaining. I gave it one star because there was zero enjoyment. I wrote the review to save you from wasting your time."
+    },
     {
       "id": "rw11842034",
       "author": "NavyVet07",
