@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-09-18T21:27:23.596Z",
+  "updatedAt": "2026-09-18T23:56:09.010Z",
   "movieId": "tt35519455",
   "total": 15,
   "reviews": [
-    {
-      "id": "rw11880244",
-      "author": "hk-13279-32030",
-      "authorRating": 5,
-      "submissionDate": "2026-09-18",
-      "spoiler": false,
-      "helpfulness": {
-        "upVotes": 0,
-        "downVotes": 0
-      },
-      "text": "Trapped on The Road The four main characters are also important to the movie&#39;s effectiveness. Their conversations initially feel like those of ordinary friends spending time together after graduation. As the strange situation continues, however, their personalities and fears begin to emerge. The performances from Phinehas Yoon, Akira Jackson, Noah Toth, and Mitchell Cole help maintain the human side of the story while the supernatural elements become increasingly difficult to understand.",
-      "summary": "Trapped on The Road",
-      "rawText": "The four main characters are also important to the movie&#39;s effectiveness. Their conversations initially feel like those of ordinary friends spending time together after graduation. As the strange situation continues, however, their personalities and fears begin to emerge. The performances from Phinehas Yoon, Akira Jackson, Noah Toth, and Mitchell Cole help maintain the human side of the story while the supernatural elements become increasingly difficult to understand."
-    },
     {
       "id": "rw11880259",
       "author": "lisana-44",
@@ -30,6 +16,20 @@
       "text": "An unforgettable Nightmare It Ends is an atmospheric psychological horror and science-fiction thriller that turns a simple late-night drive into a disturbing journey into the unknown. Written and directed by Alexander Ullom in his feature debut, the film follows four recent college graduates-James, Tyler, Day, and Fisher-who set out for a casual night together. Their ordinary road trip quickly becomes terrifying when they realize that the road they are driving on seems to have no end.",
       "summary": "An unforgettable Nightmare",
       "rawText": "It Ends is an atmospheric psychological horror and science-fiction thriller that turns a simple late-night drive into a disturbing journey into the unknown. Written and directed by Alexander Ullom in his feature debut, the film follows four recent college graduates-James, Tyler, Day, and Fisher-who set out for a casual night together. Their ordinary road trip quickly becomes terrifying when they realize that the road they are driving on seems to have no end."
+    },
+    {
+      "id": "rw11880244",
+      "author": "hk-13279-32030",
+      "authorRating": 5,
+      "submissionDate": "2026-09-18",
+      "spoiler": false,
+      "helpfulness": {
+        "upVotes": 0,
+        "downVotes": 0
+      },
+      "text": "Trapped on The Road The four main characters are also important to the movie&#39;s effectiveness. Their conversations initially feel like those of ordinary friends spending time together after graduation. As the strange situation continues, however, their personalities and fears begin to emerge. The performances from Phinehas Yoon, Akira Jackson, Noah Toth, and Mitchell Cole help maintain the human side of the story while the supernatural elements become increasingly difficult to understand.",
+      "summary": "Trapped on The Road",
+      "rawText": "The four main characters are also important to the movie&#39;s effectiveness. Their conversations initially feel like those of ordinary friends spending time together after graduation. As the strange situation continues, however, their personalities and fears begin to emerge. The performances from Phinehas Yoon, Akira Jackson, Noah Toth, and Mitchell Cole help maintain the human side of the story while the supernatural elements become increasingly difficult to understand."
     },
     {
       "id": "rw11872800",
