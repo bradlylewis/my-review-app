@@ -1,8 +1,22 @@
 {
-  "updatedAt": "2026-10-26T16:35:39.110Z",
+  "updatedAt": "2026-10-26T21:25:43.041Z",
   "movieId": "tt35519455",
-  "total": 16,
+  "total": 17,
   "reviews": [
+    {
+      "id": "rw11989854",
+      "author": "simonbuckley-83905",
+      "authorRating": 6,
+      "submissionDate": "2026-10-26",
+      "spoiler": false,
+      "helpfulness": {
+        "upVotes": 0,
+        "downVotes": 0
+      },
+      "text": "Existential road to hell It Ends (2025), written, edited and directed by Alexander Ullom, in his feature debut, is an impressive and atmospheric independent horror film that transforms an ordinary late-night drive into a surreal nightmare. Following their college graduation, four friends-James (Phinehas Yoon), Day (Akira Jackson), Fisher (Noah Toth) and Tyler (Mitchell Cole)-set off on a seemingly routine food run, only to find themselves trapped on an endless road surrounded by a sinister forest and mysterious threats. As their attempts to escape prove increasingly futile, the journey becomes an unsettling exploration of fear, uncertainty and the anxieties of entering adulthood. Maybe. Possibly. Impressive cinematography, creating a claustrophobic atmosphere of the confines in the vehicle, and sense of dread, of what awaits them in the dark and foreboding woodland. You applaud the originality, and It&#39;s definitely unsettling and imaginative, but the repetition, and slow pacing tests your patience, ultimately diminishing the tension. 6/10.",
+      "summary": "Existential road to hell",
+      "rawText": "It Ends (2025), written, edited and directed by Alexander Ullom, in his feature debut, is an impressive and atmospheric independent horror film that transforms an ordinary late-night drive into a surreal nightmare.<br/><br/>Following their college graduation, four friends-James (Phinehas Yoon), Day (Akira Jackson), Fisher (Noah Toth) and Tyler (Mitchell Cole)-set off on a seemingly routine food run, only to find themselves trapped on an endless road surrounded by a sinister forest and mysterious threats. As their attempts to escape prove increasingly futile, the journey becomes an unsettling exploration of fear, uncertainty and the anxieties of entering adulthood.<br/><br/>Maybe. Possibly.<br/><br/>Impressive cinematography, creating a claustrophobic atmosphere of the confines in the vehicle, and sense of dread, of what awaits them in the dark and foreboding woodland. You applaud the originality, and It&#39;s definitely unsettling and imaginative, but the repetition, and slow pacing tests your patience, ultimately diminishing the tension.<br/><br/>6/10."
+    },
     {
       "id": "rw11898733",
       "author": "Alberto-9326",
